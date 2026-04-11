@@ -3,6 +3,11 @@
 ## Overview
 This project investigates the robustness of Transformers and Large Language Models (LLMs) for fake review detection using the [Difraud](https://huggingface.co/datasets/difraud/difraud) dataset. The study focuses on how model predictions vary under prompt rewording and across different review lengths, providing a more realistic evaluation of LLM behavior in deceptive language detection.
 
+## How to Run
+- Open `fake_review_detection_analysis.ipynb` for main project code
+- `qwen_35_error_analysis.ipynb` contains qwen error analysis
+- `qwen_zeroshot_qwen2_5.ipynb` is the first qwen experiment using the outdated 2.5 version
+
 ## Dataset
 - Source: DIFRAUD (Hugging Face)
 - Domain: Amazon product reviews
@@ -45,7 +50,4 @@ This project investigates the robustness of Transformers and Large Language Mode
 ## Project Goals
 - Assess whether LLMs can outperform traditional transformer models in fake review detection  
 - Evaluate the stability of LLM predictions under realistic input variations  
-- Analyze how input length impacts classification performance  
-
-
-
+- Analyze how input length impacts classification performance
